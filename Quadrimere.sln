@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quadrimere", "Quadrimere\Quadrimere.csproj", "{5E883577-8F0F-4C98-8ECB-B39733EF48AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emotion", "..\Emotion\Emotion\Emotion.csproj", "{08D5C1C7-A6EF-4837-9EDC-48D902FBBA0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emotion.Plugins.ImGuiNet", "..\Emotion\Emotion.Plugins.ImGuiNet\Emotion.Plugins.ImGuiNet.csproj", "{EE206714-D7CF-4D82-8CC5-6917E05CB85C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emotion.Tools", "..\Emotion\Emotion.Tools\Emotion.Tools.csproj", "{746C6D4C-90FB-43F5-B7B2-FB3E9B39C7DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E883577-8F0F-4C98-8ECB-B39733EF48AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E883577-8F0F-4C98-8ECB-B39733EF48AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E883577-8F0F-4C98-8ECB-B39733EF48AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E883577-8F0F-4C98-8ECB-B39733EF48AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08D5C1C7-A6EF-4837-9EDC-48D902FBBA0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D5C1C7-A6EF-4837-9EDC-48D902FBBA0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D5C1C7-A6EF-4837-9EDC-48D902FBBA0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D5C1C7-A6EF-4837-9EDC-48D902FBBA0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE206714-D7CF-4D82-8CC5-6917E05CB85C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE206714-D7CF-4D82-8CC5-6917E05CB85C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE206714-D7CF-4D82-8CC5-6917E05CB85C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE206714-D7CF-4D82-8CC5-6917E05CB85C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746C6D4C-90FB-43F5-B7B2-FB3E9B39C7DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746C6D4C-90FB-43F5-B7B2-FB3E9B39C7DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746C6D4C-90FB-43F5-B7B2-FB3E9B39C7DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746C6D4C-90FB-43F5-B7B2-FB3E9B39C7DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Emotion\Emotion.Plugins.ImGuiNet\Emotion.Plugins.ImGuiNet.csproj" />
+      <ProjectReference Include="..\..\Emotion\Emotion.Tools\Emotion.Tools.csproj" />
+      <ProjectReference Include="..\..\Emotion\Emotion\Emotion.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Assets\Image" />
+      <Folder Include="Assets\Sound" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Remove="Assets\Font\*" />
+        <EmbeddedResource Include="Assets\Font\*.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="Assets\Image\*" />
+        <EmbeddedResource Include="Assets\iMage\*.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="Assets\Sound\*" />
+        <EmbeddedResource Include="Assets\SicBeats\*.wav">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </EmbeddedResource>
+    </ItemGroup>
+
+</Project>
